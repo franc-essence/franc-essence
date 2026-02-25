@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Franc'Essence — Contact</title>
+  <meta name="description" content="Franc'Essence — Ressources pédagogiques et didactiques de FLE du collège au BAC et jusqu’à l’université." />
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+<body>
+<a class="skip" href="#main">Aller au contenu</a>
+
+<header class="header">
+  <div class="container header__inner">
+    <a class="brand" href="index.html" aria-label="Franc'Essence accueil">
+      <span class="brand__logo" aria-hidden="true">FÉ</span>
+      <span class="brand__name">Franc'Essence</span>
+      <span class="brand__tag">FLE • Pédagogie • Didactique</span>
+    </a>
+
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="parcours.html">Parcours</a>
+      <a href="ressources.html">Ressources</a>
+      <a href="exercices.html">Exercices</a>
+      <a href="methodologie.html">Méthodologie</a>
+      <a href="apropos.html">À propos</a>
+    </nav>
+
+    <div class="actions">
+      <a class="btn btn--ghost" href="recherche.html">Recherche</a>
+      <a class="btn btn--primary" href="contact.html">Contact</a>
+    </div>
+  </div>
+</header>
+
+<main id="main" class="container main">
+  <section class="section">
+    <div class="section__head">
+      <h1>Contact</h1>
+      <p class="muted">Pour proposer un sujet, demander une fiche, ou signaler une correction.</p>
+    </div>
+
+    <div class="grid grid--2">
+      <article class="card">
+        <h2>Par email</h2>
+        <p class="muted">Remplacez l’adresse ci-dessous par la vôtre.</p>
+        <p class="big"><a href="mailto:email@example.com">email@example.com</a></p>
+        <p class="muted small">Astuce : sur GitHub Pages, vous pouvez aussi mettre un formulaire Google Forms et le lier ici.</p>
+      </article>
+
+      <form class="card form" onsubmit="return false;">
+        <h2>Message rapide</h2>
+        <label>Nom
+          <input type="text" placeholder="Votre nom" />
+        </label>
+        <label>Email
+          <input type="email" placeholder="email@example.com" />
+        </label>
+        <label>Message
+          <textarea rows="5" placeholder="Votre message..."></textarea>
+        </label>
+        <button class="btn btn--primary" type="button" id="copyBtn">Copier le message</button>
+        <p class="muted small" id="copyHint">Le message sera copié, puis vous pourrez l’envoyer par email.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="muted">© <span id="year"></span> Franc'Essence — Tous droits réservés</div>
+    <div class="muted">Site statique HTML/CSS/JS • Prêt pour GitHub Pages</div>
+  </div>
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>
