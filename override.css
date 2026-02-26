@@ -1,0 +1,19 @@
+/* Franc'Essence — surcouche claire */
+body{
+  background:#f4f8fb !important;
+  color:#1f2a3a !important;
+}
+.header{
+  background:#ffffff !important;
+  border-bottom:1px solid #dde6ed !important;
+}
+.card{
+  background:#ffffff !important;
+  border:1px solid #dde6ed !important;
+}
+.muted{ color:#5f6c7b !important; }
+.link{ color:#2c7da0 !important; }
+.btn--primary{
+  background:linear-gradient(135deg,#2c7da0,#52b788) !important;
+  border:none !important;
+}
