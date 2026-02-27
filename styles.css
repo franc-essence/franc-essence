@@ -1,49 +1,51 @@
-body{
-  margin:0;
-  font-family: Arial, sans-serif;
-  background:#f4f8fb;
-  color:#1f2a3a;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #f1f8e9);
+    text-align: center;
 }
 
-.header{
-  background:#ffffff;
-  padding:15px 0;
-  border-bottom:1px solid #dde6ed;
+header {
+    background: linear-gradient(to right, #2c7da0, #52b788);
+    color: white;
+    padding: 30px;
 }
 
-.nav a{
-  color:#1f2a3a;
-  text-decoration:none;
-  margin-right:15px;
+.slogan {
+    font-style: italic;
+    margin-top: 10px;
 }
 
-.nav a:hover{
-  color:#2c7da0;
+.hero {
+    padding: 50px;
 }
 
-.card{
-  background:#ffffff;
-  padding:20px;
-  border-radius:10px;
-  margin-bottom:20px;
-  border:1px solid #dde6ed;
+.hero button {
+    background: #3a86ff;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
-.section{
-  margin:40px 0;
+.hero button:hover {
+    background: #1d5fd0;
 }
 
-.btn--primary{
-  background:#2c7da0;
-  color:white;
-  padding:10px 15px;
-  border-radius:6px;
-  text-decoration:none;
+.adage {
+    background: white;
+    margin: 40px auto;
+    padding: 20px;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-.footer{
-  background:#ffffff;
-  padding:20px;
-  text-align:center;
-  border-top:1px solid #dde6ed;
+footer {
+    background: #2c7da0;
+    color: white;
+    padding: 15px;
+    margin-top: 40px;
 }
