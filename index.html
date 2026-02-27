@@ -1,181 +1,34 @@
-<!doctype html>
-<html lang="fr"><style>
-body{
-  background:#f4f8fb;
-  color:#1f2a3a;
-}
-.header{
-  background:#ffffff;
-  border-bottom:1px solid #dde6ed;
-}
-.card{
-  background:#ffffff;
-  border:1px solid #dde6ed;
-}
-.link{
-  color:#2c7da0;
-}
-.btn--primary{
-  background:linear-gradient(135deg,#2c7da0,#52b788);
-}
-</style>
+<!DOCTYPE html>
+<html lang="fr">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Franc'Essence</title>
-  <meta name="description" content="Franc'Essence — Ressources pédagogiques et didactiques de FLE du collège au BAC et jusqu’à l’université." />
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="override.css" />
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Franc'Essence</title>
+<link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-<a class="skip" href="#main">Aller au contenu</a>
 
-<header class="header">
-  <div class="container header__inner">
-    <a class="brand" href="index.html" aria-label="Franc'Essence accueil">
-      <span class="brand__logo" aria-hidden="true">FÉ</span>
-      <span class="brand__name">Franc'Essence</span>
-      <span class="brand__tag">FLE • Pédagogie • Didactique</span>
-    </a>
-
-    <nav class="nav" aria-label="Navigation principale">
-      <a href="index.html">Accueil</a>
-      <a href="parcours.html">Parcours</a>
-      <a href="ressources.html">Ressources</a>
-      <a href="exercices.html">Exercices</a>
-      <a href="methodologie.html">Méthodologie</a>
-      <a href="apropos.html">À propos</a>
-    </nav>
-
-    <div class="actions">
-      <a class="btn btn--ghost" href="recherche.html">Recherche</a>
-      <a class="btn btn--primary" href="contact.html">Contact</a>
-    </div>
-  </div>
+<header>
+    <h1>🌿 Franc'Essence</h1>
+    <p class="slogan">Apprendre le français avec méthode et élégance</p>
 </header>
 
+<section class="hero">
+    <h2>Bienvenue</h2>
+    <p>Ressources pédagogiques pour le FLE, le lycée et l’université.</p>
+    <button>Commencer</button>
+</section>
 
-<main id="main" class="container main">
-  <section class="hero">
-    <div class="hero__left">
-      <p class="kicker">Bienvenue sur</p>
-      <h1 class="hero__title">Franc'Essence</h1>
-      <p class="hero__subtitle">
-        Une plateforme <strong>purement pédagogique</strong> : ressources, méthodes et exercices de <strong>FLE</strong>
-        du collège au <strong>BAC</strong> et jusqu’à l’<strong>université</strong>.
-      </p>
+<section class="adage">
+    <h3>Adage du jour</h3>
+    <p id="quote"></p>
+</section>
 
-      <div class="hero__buttons">
-        <a class="btn btn--primary" href="parcours.html">Commencer le parcours</a>
-        <a class="btn btn--ghost" href="ressources.html">Voir les ressources</a>
-      </div>
-
-      <div class="chips">
-        <span class="chip">FLE A1 → C2</span>
-        <span class="chip">Production écrite / orale</span>
-        <span class="chip">Grammaire & lexique</span>
-        <span class="chip">Méthodologie BAC & Université</span>
-      </div>
-    </div>
-
-    <div class="hero__right" aria-hidden="true">
-      <div class="card stat">
-        <div class="stat__k">Objectif</div>
-        <div class="stat__v">Apprendre, pratiquer, réussir</div>
-      </div>
-      <div class="card stat">
-        <div class="stat__k">Approche</div>
-        <div class="stat__v">Clarté • Progression • Exemples</div>
-      </div>
-      <div class="card stat">
-        <div class="stat__k">Public</div>
-        <div class="stat__v">Élèves • Étudiants • Enseignants</div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="section__head">
-      <h2>Parcours guidé</h2>
-      <p class="muted">Choisissez votre niveau et avancez étape par étape (cours → exemples → exercices → corrigés).</p>
-    </div>
-
-    <div class="grid grid--3">
-      <article class="card">
-        <h3>FLE (A1–B1)</h3>
-        <p class="muted">Bases : grammaire, conjugaison, vocabulaire, compréhension.</p>
-        <ul class="list">
-          <li>Le présent / passé composé / futur</li>
-          <li>Articles, adjectifs, pronoms</li>
-          <li>Compréhension de textes courts</li>
-        </ul>
-        <a class="link" href="parcours.html#fle">Accéder →</a>
-      </article>
-
-      <article class="card">
-        <h3>Lycée & BAC</h3>
-        <p class="muted">Discours argumentatif, commentaire, compte rendu, méthodologie.</p>
-        <ul class="list">
-          <li>Débat d’idées</li>
-          <li>Plans : dialectique, analytique</li>
-          <li>Connecteurs & stratégies</li>
-        </ul>
-        <a class="link" href="parcours.html#bac">Accéder →</a>
-      </article>
-
-      <article class="card">
-        <h3>Université</h3>
-        <p class="muted">Lecture critique, synthèse, dissertation, exposé, recherche.</p>
-        <ul class="list">
-          <li>Problématique & hypothèses</li>
-          <li>Plan de dissertation</li>
-          <li>Références & citations</li>
-        </ul>
-        <a class="link" href="parcours.html#univ">Accéder →</a>
-      </article>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="section__head">
-      <h2>En vedette</h2>
-      <p class="muted">Sélection rapide de contenus prêts à utiliser.</p>
-    </div>
-
-    <div class="grid grid--2">
-      <article class="card">
-        <h3>Discours argumentatif (BAC)</h3>
-        <p class="muted">Thème • thèse • arguments • exemples • connecteurs • stratégies (réfutation, concession…).</p>
-        <a class="link" href="methodologie.html#argumentation">Ouvrir la méthode →</a>
-      </article>
-      <article class="card">
-        <h3>Fiches d’exercices</h3>
-        <p class="muted">QCM, production écrite, transformation, connecteurs, plans, corrigés.</p>
-        <a class="link" href="exercices.html">Voir les exercices →</a>
-      </article>
-    </div>
-  </section>
-
-  <section class="cta">
-    <div class="cta__inner">
-      <div>
-        <h2>Besoin d’un support sur mesure ?</h2>
-        <p class="muted">Cours, fiche élève, fiche professeur, exercices et corrigés.</p>
-      </div>
-      <a class="btn btn--primary" href="contact.html">Me contacter</a>
-    </div>
-  </section>
-</main>
-
-
-<footer class="footer">
-  <div class="container footer__inner">
-    <div class="muted">© <span id="year"></span> Franc'Essence — Tous droits réservés</div>
-    <div class="muted">Site statique HTML/CSS/JS • Prêt pour GitHub Pages</div>
-  </div>
+<footer>
+    <p>© 2026 Franc'Essence - Plateforme pédagogique</p>
 </footer>
-<script src="script.js"></script>
 
+<script src="script.js"></script>
 </body>
 </html>
